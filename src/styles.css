@@ -1,0 +1,77 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  border-radius: 20px;
+  margin: 5px;
+  size: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 500px;
+  height: 30px;
+  align-items: center;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(231, 190, 230);
+}
+
+button {
+  height: 36px;
+  width: 70px;
+  border: none;
+  border-radius:0 3px 3px 0; 
+  background-color: rgb(231, 190, 230);
+}
+button:active{
+  background-color: rgb(189, 69, 187);
+}
+button:hover{
+  background-color: rgb(189, 69, 187);
+}
+.container{
+  width: 250px;
+  background-color: rgb(231, 190, 230);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+.gif-container{
+  display: flex;
+	flex-direction: row;
+	align-items:stretch;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.form-search{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.textfield{
+  width: 40%;
+}
+.search-button {
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    padding: 9px;
+    height: 55px;
+    width: 100px;
+    color: #fffdfd;
+}
